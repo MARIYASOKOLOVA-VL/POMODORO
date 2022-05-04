@@ -1,0 +1,62 @@
+<AbsoluteLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFD6D6">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="1dp"
+        android:layout_y="105dp"
+        app:srcCompat="@drawable/my" />
+
+    <Button
+        android:id="@+id/button_start_pause"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_x="138dp"
+        android:layout_y="484dp"
+        android:backgroundTint="#AC0B0B"
+        android:text="СТАРТ" />
+
+    <TextView
+        android:id="@+id/text_view_countdown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="113dp"
+        android:layout_y="362dp"
+        android:text="00:00"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#650909"
+        android:textIsSelectable="false"
+        android:textSize="60sp"
+        android:textStyle="bold"
+        android:typeface="monospace"></TextView>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="77dp"
+        android:layout_height="wrap_content"
+        android:layout_x="324dp"
+        android:layout_y="557dp"
+        android:backgroundTint="#AC0B0B"
+        android:text="Отдых"
+        android:textSize="10dp"
+        android:onClick="onSendMessage2"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:layout_x="0dp"
+        android:layout_y="-5dp"
+        android:backgroundTint="#AC0B0B"
+        android:text="Список задач"
+        android:onClick="onListTask_my"/>
+
+
+</AbsoluteLayout>
